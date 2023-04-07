@@ -1,10 +1,12 @@
-import Button from '@/components/atoms/Button/Button';
-import Layout from '@/components/organisms/Layout';
+import Layout from '@/components/organisms/layout/layout';
+import Navbar from '@/components/molecules/navbar/navbar';
 
 export default function Home() {
   return (
     <main>
-      <Layout> Home Page </Layout>
+      <Layout>
+        <Navbar></Navbar>
+      </Layout>
     </main>
   );
 }

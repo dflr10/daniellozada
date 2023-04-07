@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { it, describe, expect } from 'vitest';
 
-import Layout from '@/components/organisms/Layout';
+import Layout from '@/components/organisms/layout/layout';
 
 describe(`Layout`, () => {
   it(`renders a Layout component`, () => {
