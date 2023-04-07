@@ -12,7 +12,7 @@
 <div align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/gatsby-starter-ts?style=flat-square&color=5e17eb&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/daniellozada?style=flat-square&color=5e17eb&labelColor=000000">
 
   <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
     <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @jpedroschmitz" />
@@ -20,7 +20,7 @@
 </div>
 
 <div align="center">
-  <sub>Created by <a href="https://twitter.com/jpedroschmitz">João Pedro</a> with the help of many <a href="https://github.com/jpedroschmitz/gatsby-starter-ts/graphs/contributors">wonderful contributors</a>.</sub>
+  <sub>Created by <a href="https://twitter.com/jpedroschmitz">João Pedro</a> with the help of many <a href="https://github.com/jpedroschmitz/daniellozada/graphs/contributors">wonderful contributors</a>.</sub>
 </div>
 
 <br />
@@ -46,7 +46,7 @@
 The best way to start with this template is using the [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/).
 
 ```
-npx gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
+npx gatsby new starter-ts https://github.com/jpedroschmitz/daniellozada
 ```
 
 ### Development
