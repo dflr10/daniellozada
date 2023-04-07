@@ -18,7 +18,7 @@ const Navbar = () => {
       </ul>
       <Button
         classname="navbar"
-        type='button'
+        type="button"
         text={'Contact'}
         isDisabled={false}
       />
