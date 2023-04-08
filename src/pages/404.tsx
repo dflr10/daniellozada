@@ -1,4 +1,4 @@
-import Layout from "@/components/organisms/layout/layout"
+import Layout from '@/components/organisms/layout/layout';
 
 export default function NotFound() {
   return (

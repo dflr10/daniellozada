@@ -1,4 +1,4 @@
-import Layout from "@/components/organisms/layout/layout"
+import Layout from '@/components/organisms/layout/layout';
 
 const About = () => {
   return (
