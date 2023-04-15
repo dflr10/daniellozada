@@ -1,10 +1,11 @@
 import Button from '@/components/atoms/button/button';
 import { Link } from 'gatsby';
+import "./navbar.scss"
 
 const Navbar = () => {
   return (
-    <nav>
-      <h1>Daniel Lozada</h1>
+    <nav className={'m-navbar'}>
+      <h1 >Daniel Lozada</h1>
       <ul>
         <li>
           <Link to="/">Home</Link>

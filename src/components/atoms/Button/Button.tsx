@@ -1,4 +1,4 @@
-import './Button.scss';
+import './button.scss';
 
 interface ButtonInterface {
   id?: string;
@@ -22,7 +22,6 @@ const Button = (props: ButtonInterface) => {
     isDisabled,
     href,
     icon,
-    target,
   } = props;
 
   /* const isHttp = (url?: string) => {
@@ -33,7 +32,7 @@ const Button = (props: ButtonInterface) => {
     <>
       <button
         id={id}
-        className={`${'a-button '} ${classname} ${(isDisabled) ? '--disabled' : ''}`}
+        className={`${'a-button '}${classname}${(isDisabled) ? '--disabled' : ''}`}
         disabled={isDisabled}
         onClick={onClickAction}
       >

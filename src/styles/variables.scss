@@ -7,6 +7,12 @@ $kumbh-light: "kumbh-Light";
 
 /* Pixels to rem */
 $base-size: 17.5;
+/* Pixels to margin, padding and others */
+$margin: 16px;
+$margin-soft: 8px;
+$padding: 16px;
+$padding-soft: 8px;
+$border-radius: 4px;
 
 @function size($target, $context: $base-size) {
     @return ($target / $context) * 1rem;

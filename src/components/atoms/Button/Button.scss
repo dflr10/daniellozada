@@ -1,0 +1,9 @@
+@import "../../../styles/variables.scss";
+
+.a-button {
+  &:hover{
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: $shadow-primary;
+  }
+}
