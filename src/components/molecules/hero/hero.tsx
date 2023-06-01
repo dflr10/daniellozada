@@ -1,20 +1,23 @@
-import React, { useEffect } from "react"
-import { useSignal } from "react-use"
+import { useState, useEffect } from "react"
 
 const Clock = () => {
-  const [date, setDate] = useSignal(new Date())
+  const [date, setDate] = useState(new Date())
 
   useEffect(() => {
-    const timerID = setInterval(() => setDate(new Date()), 1000)
+    const timerID = setInterval(() => tick(), 1000)
     return function cleanup() {
       clearInterval(timerID)
     }
-  }, [setDate])
-  console.log(date.toLocaleTimeString())
+  })
+
+  function tick() {
+    setDate(new Date())
+  }
+console.log()
   return (
     <div>
-      <h1>La hora actual es:</h1>
-      <h2>{date.toLocaleTimeString()}</h2>
+      <h2>La hora actual es:</h2>
+      <h3>{date.toLocaleTimeString()}</h3>
     </div>
   )
 }
