@@ -32,11 +32,14 @@
     ]
   },
   "dependencies": {
+    "dotenv": "16.3.1",
     "gatsby": "5.8.1",
     "gatsby-image": "3.11.0",
+    "gatsby-plugin-image": "3.11.0",
     "gatsby-plugin-pnpm": "1.2.10",
     "gatsby-plugin-sass": "6.8.0",
     "gatsby-plugin-sharp": "5.8.1",
+    "gatsby-source-contentful": "8.11.0",
     "gatsby-transformer-sharp": "5.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
