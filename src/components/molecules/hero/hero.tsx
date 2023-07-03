@@ -13,7 +13,6 @@ const Clock = () => {
   function tick() {
     setDate(new Date())
   }
-console.log()
   return (
     <div>
       <h2>La hora actual es:</h2>
