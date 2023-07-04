@@ -19,26 +19,33 @@ const Navbar = () => {
     }`
   );
 
-  const {title , list, button} = allContentfulNavbar.nodes[0];
-
+  
+  interface Navbar {
+    title: string; 
+    list: string; 
+    button: any;
+  }
+  
+  const navbar : Navbar = allContentfulNavbar.nodes[0];
+  
   return (
     <nav className={'m-navbar'}>
-      <h1>{title}</h1>
+      <h1>{navbar.title}</h1>
       <ul>
         <li>
-          <Link to="/">{list[0]}</Link>
+          <Link to="/">{navbar.list[0]}</Link>
         </li>
         <li>
-          <Link to="/about/">{list[1]}</Link>
+          <Link to="/about/">{navbar.list[1]}</Link>
         </li>
         <li>
-          <Link to="/projects/">{list[2]}</Link>
+          <Link to="/projects/">{navbar.list[2]}</Link>
         </li>
       </ul>
       <Button
         classname="navbar"
         type="button"
-        text={button.copy}
+        text={navbar.button.copy}
         isDisabled={false}
       />
     </nav>
