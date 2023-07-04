@@ -4,6 +4,7 @@ import Button from '@/components/atoms/button/button';
 import "./navbar.scss";
 
 const Navbar = () => {
+  
   const { allContentfulNavbar } = useStaticQuery(
   graphql`query GET_NAV_CONTENT {
       allContentfulNavbar(filter: {name: {eq: "Daniel Lozada"}}) {
@@ -18,13 +19,11 @@ const Navbar = () => {
       }
     }`
   );
-
-  
   interface Navbar {
     title: string; 
     list: string; 
     button: any;
-  }
+  };
   
   const navbar : Navbar = allContentfulNavbar.nodes[0];
   
