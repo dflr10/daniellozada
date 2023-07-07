@@ -29,7 +29,7 @@ const Navbar = () => {
   
   return (
     <nav className={'m-navbar'}>
-      <h1>{navbar.title}</h1>
+      <h2>{navbar.title}</h2>
       <ul>
         <li>
           <Link to="/">{navbar.list[0]}</Link>
